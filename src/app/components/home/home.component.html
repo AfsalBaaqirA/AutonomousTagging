@@ -1,0 +1,73 @@
+<app-navbar [links]="links"></app-navbar>
+<div class="bd-masthead mb-3" id="content">
+    <div class="container d-flex align-items-center justify-content-center app">
+        <h1 class="bd-title">Welcome</h1>
+        <p class="bd-lead">Scroll to know more</p>
+        <!-- <a href="home#about">
+            <div class="arrow bounce">
+                <i class="fa fa-arrow-down fa-2x" aria-hidden="true"></i>
+            </div>
+        </a> -->
+    </div>
+    <div class="container my-5">
+        <section id="about">
+            <div class="text-center mb-5">
+                <span>ABOUT</span>
+                <h2 class="font-weight-bold display-4 ">How It <span style=" color: var(--bs-info)">Works?</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mx-auto">
+                    <div class="bg-body-tertiary position-relative px-3 my-5">
+                        <div class="font-weight-bold circle text-white rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative border border-white"
+                            style="width: 60px;height: 60px;top: -30px;border: 4px solid var(--bs-info) !important; background-color: rgba(
+        var(--bs-dark-rgb),
+        1
+      ) !important">
+                            1
+                        </div>
+                        <div class="px-3 text-center pb-3">
+                            <h4>Autonomous Tagging of StackOverflow</h4>
+                            <p class="font-weight-light my-3">Models used:
+                                <br><b>LinearSVC, SGD Classifier, Logistic Regression</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mx-auto">
+                    <div class="bg-body-tertiary position-relative px-3 my-5">
+                        <div class="font-weight-bold circle text-white rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative border border-white"
+                            style="width: 60px;height: 60px;top: -30px;border: 4px solid var(--bs-info) !important; background-color: rgba(
+        var(--bs-dark-rgb),
+        1
+      ) !important">
+                            2
+                        </div>
+                        <div class="px-3 text-center pb-3">
+                            <h4>Trained on real-time data</h4>
+                            <p class="font-weight-light my-3">Using 10% of the real-time data in StackOverflow, the
+                                model is trained using Classification models</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mx-auto">
+                    <div class="bg-body-tertiary position-relative px-3 my-5">
+                        <div class="font-weight-bold circle text-white rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative border border-white"
+                            style="width: 60px;height: 60px;top: -30px;border: 4px solid var(--bs-info) !important; background-color: rgba(
+        var(--bs-dark-rgb),
+        1
+      ) !important">
+                            3
+                        </div>
+                        <div class="px-3 text-center pb-3">
+                            <h4>Predict tags for your Post!</h4>
+                            <p class="font-weight-light my-3">
+                                Enter your post in the text area and click on the predict button to get the
+                                predicted tags for your post.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
